@@ -22,7 +22,9 @@ header{
 	border-bottom: 1px solid #bbb8bf; /*changes color of border under project name*/
 }
 h1{
+	font:4em 'Permanent Marker', cursive;
 	margin-top: 0;
+	color: #007A7A;
 	padding-top: 10px;
 }
 h2{
@@ -46,7 +48,7 @@ th{
 	padding: 1em 1em .5em;
 	font-weight: bold;
 	font-size: 120%;
-	color: #545257;  /*changes color of table hd text*/
+	color: #007A7A;  /*changes color of table hd text*/
 	background: #bbbcc0; /*changes color of table hd background*/
 }
 th:first-child{
@@ -72,18 +74,21 @@ td:first-child{
 
 }
 .main figure{
-	float: right;
 	margin: 15px 0 20px 0;
-	width: 30%;
+	width: 50%;
 
 }
 figure img{
 	width: 100%;
 }
+
 .sec{
 	clear: both;
 	margin-top: 40px;
-	
+}
+
+.quote {
+	font-weight: bold;
 }
 
 /*-------------------------------------------  links -------------------------------------------------------*/
